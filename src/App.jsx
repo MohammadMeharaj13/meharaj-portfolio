@@ -20,7 +20,7 @@ function App() {
         <div className="flex flex-col-reverse md:flex-row gap-8 h-[calc(100vh-64px)]">
 
           {/* Desktop Sidebar */}
-          <div className="hidden md:block sticky top-1/2 -translate-y-1/2 h-fit">
+          <div className="hidden md:block sticky top-0 h-[100vh] overflow-y-auto">
             <Sidebar />
           </div>
 
