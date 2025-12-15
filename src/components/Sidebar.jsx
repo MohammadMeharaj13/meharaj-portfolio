@@ -1,4 +1,3 @@
-import avatar from "../assets/avatar.jpg";
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 
 const Sidebar = ({ mobile = false }) => {
@@ -9,7 +8,7 @@ const Sidebar = ({ mobile = false }) => {
     >
       {/* Avatar */}
       <img
-        src={avatar}
+        src="/avatar.jpg"
         alt="Avatar"
         className={`border-2 border-yellow-500 object-cover
         ${mobile ? "w-12 h-12 rounded-full" : "w-32 h-32 rounded-2xl mb-4"}`}
